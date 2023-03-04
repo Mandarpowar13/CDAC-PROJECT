@@ -1,0 +1,18 @@
+API:-
+customer:-
+
+post  = http://localhost:8080/cus/login
+post = http://localhost:8080/cus/signup
+get = http://localhost:8080/cus/viewall
+get = http://localhost:8080/cus/{id}
+delete = http://localhost:8080/cus/delete/{id}
+put =http://localhost:8080/cus/update/{id}
+
+
+booking= 
+
+get = http://localhost:8080/bookings/viewall
+get =http://localhost:8080/bookings/viewByCust/{id}
+get = http://localhost:8080/bookings/viewaByTrek/{id}
+post = http://localhost:8080/bookings/addBooking/{cid}/{tid}
+delete = http://localhost:8080/bookings/delete/{id}
